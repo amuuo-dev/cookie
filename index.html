@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon-32x32.png" sizes="32x32">
+    <title>Learn To Code</title>
+</head>
+<body>
+    <main>
+		<section class="section-container">
+			<h1>Learning to code? This is the most important thing you will ever read!</h1>
+
+			<ul>
+				<li class="li-green">💰 Land a job with a 6 figure salary</li>
+				<li class="li-yellow">💻 Master JavaScript in 3 hours</li>
+				<li class="li-blue">⚛️ Learn React in 10 minutes</li>
+				<li class="li-pink">☕ Be a NodeJS Dev by lunchtime</li>
+			</ul>
+
+			<h3>My subliminal learning technique worked for Mark Zuckerberg and Albert Einstein, and it can work for you!</h3>
+			<img src="images/bugatti.jpg" alt="bugatti car picture">
+			<p>Want a great job in tech? Want a six-figure salary? Then you have come to the right place. I am going to tell you all
+				you need to know to get all of that and much more, without you lifting a finger. You can learn passively. Just sit back,
+				close your eyes, and let the sound of my voice make the code sink deep into your brain. </p>
+		</section>
+	</main>
+	<div class="modal" id="modal">
+		<div class="close-modal-btn-container">
+			<button class="modal-close-btn" id="modal-close-btn" type="button" disabled>X</button>
+		</div>
+		<div class="modal-inner" id="modal-inner">
+			<h2>We ❤️ Your Data!</h2>
+			<p class="modal-text" id="modal-text">We have a strict policy on tracking and spamming: we'll definitely track you, and we'll definitely spam you. To use this
+				site, enter your name and email address and accept our ridiculous terms and conditions.</p>
+			<form id="consent-form">
+				<input 
+                type="text" 
+                name="fullName" 
+                placeholder="Enter your full name"
+                aria-label="Enter your fullName" 
+                required/>
+				<input 
+                type="email" 
+                name="email" 
+                placeholder="Enter your email" 
+                aria-label="Enter your Email Address"
+                required/>
+
+				<div class="modal-choice-btns" id="modal-choice-btns">
+					<button type="submit" class="modal-btn">Accept</button>
+					<button class="modal-btn" type="button" id="decline-btn">Decline</button>
+				</div>
+
+			</form>
+		</div>
+	</div>
+</body>
+<script src="index.js"></script>
+</html>
